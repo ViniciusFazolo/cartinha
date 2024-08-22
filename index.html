@@ -13,24 +13,28 @@
     <body>
         <div style="width: 100%; height: 100dvh;" class="overflow-hidden position-fixed">
             <figure class="position-absolute top-50 start-50 translate-middle" onclick="expandir()">
-                <img src="assets/img/coracao.webp" width="300" id="coracao">
+                <img src="assets/img/coracao.webp" width="300" id="coracao"/>
                 <span class="position-absolute top-50 start-50 translate-middle fs-3 text-white text-center" id="clique-texto">Clique aqui</span>
             </figure>
         </div>
         
         <main class="principal container">
             <div id="conteudo" class="z-3 position-relative">
-                <div class="position-absolute top-0 end-0 p-3 close-btn" onclick="fechar()">
+                <div class="position-absolute top-0 end-0 p-3 close-btn z-3" onclick="fechar()">
                     <img src="assets/icon/rotate-right-solid.svg" width="20">
                 </div>
-                <div class="texto">
+                <div class="texto position-relative">
                     <h1>Feliz 2 meses de namoro, meu amor 😍😍</h1>
                     <p>
                         Amor, gostaria de dizer que ter te conhecido foi uma das melhores coisas que me aconteceu. Quero que nosso amor dure para sempre. Te namorar está sendo uma experiência incrível. Pode contar comigo sempre. Te amo muito, minha gatinha ❤❤❤.
                     </p>
+                    <div class="d-flex justify-content-between">
+                        <img src="assets/img/buque.png" class="buque buque-esquerda">
+                        <img src="assets/img/buque.png" class="buque buque-direita">
+                    </div>
                 </div>
                 <div class="d-flex flex-wrap gap-3 justify-content-center">
-                    <div class="imagem shadow-sm">
+                    <div class="imagem">
                         <img src="assets/img/euela.jpg">
                     </div>
                     <div class="imagem">
